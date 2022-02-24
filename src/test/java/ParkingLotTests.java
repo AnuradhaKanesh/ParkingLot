@@ -64,7 +64,7 @@ public class ParkingLotTests {
     }
 
     @Test
-    public void shouldNotRemoveTwoWheelersMoreThanEnteredVechiles() {
+    public void shouldNotRemoveTwoWheelersMoreThanEnteredVehicles() {
         List<Vehicle> vehicleList = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             vehicleList.add(new TwoWheelerVehicle());
